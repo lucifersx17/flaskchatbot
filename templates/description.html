@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Raiden</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: black;">Welcome to Raiden</h1>
+        <p>Raiden is an AI chatbot designed to assist and engage in conversations.</p>
+        <p>Experience the power of AI-driven chat by logging in below.</p>
+        <a href="login.html" class="button">Login</a>
+        <a href="{{ url_for('login') }}" class="button">Go to Login</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://motionarray.imgix.net/preview-156410-ATDqYaA5rx-high_0009.jpg?w=660&q=60&fit=max&auto=format);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#chatBox {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    font-size: 16px;
+    
+}
+
+#chatBox p {
+    margin: 5px 0;
+    padding: 5px;
+    line-height: 1.4;
+}
+
+input#userInput {
+    width: 60%;
+    max-width: 600px;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}   

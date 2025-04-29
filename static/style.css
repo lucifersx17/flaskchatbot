@@ -1,0 +1,167 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Background Image */
+body {
+    background-image: url("https://img.pikbest.com/backgrounds/20200530/futuristic-pulse-hud--audio-digital-equalizer-technology-background--very-high-resolution--v_1773604jpg!sw800");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Centered Container */
+.container {
+    background: rgb(255, 255, 255);
+    padding: 60px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    color:whitesmoke;
+
+}
+
+/* Buttons */
+.button, button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.button:hover, button:hover {
+    background-color: #0056b3;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Chat Container */
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.chat-box {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Messages */
+.message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+}
+
+.bot-message {
+    align-self: flex-start;
+    background-color: #e0e0e0;
+    color: black;
+    border-radius: 10px;
+}
+
+/* Input Area */
+.input-area {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background: black;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.input-area button {
+    margin-left: 10px;
+    padding: 10px 15px;     
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+.input-area button:hover {
+    background-color: #0056b3;
+}
+
+/* Back to Home Link */
+.back-link {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    body {
+        padding: 20px;
+    }
+    .container, .chat-container {
+        width: 90%;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    input {
+        font-size: 14px;
+    }
+}
